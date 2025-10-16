@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('latihan/welcome');
+    return view('welcome');
 });
 
 //http://127.0.0.1:8000/latihan
