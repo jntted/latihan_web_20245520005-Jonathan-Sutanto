@@ -12,6 +12,7 @@
         <header> @yield('header_content') </header>
     <!-- main -->
      <main> @yield('main_content') </main>
+     @include('beranda.beranda')
     <!-- footer -->
      <footer> @yield('footer_content','default footer text') </footer>
 </body>
